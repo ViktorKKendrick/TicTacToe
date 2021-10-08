@@ -81,63 +81,63 @@ class Controller{
 
                                 TL.removeChild(TL.childNodes[0])
 
-                                this.v.Imag1 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: 1})
+                                this.v.Imag1 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: 1})
                             break;
                             case 'TM':
                             if((TM.childNodes[0]).id != '0'){
                                 return
                             }
                                 TM.removeChild(TM.childNodes[0])
-                                this.v.Imag2 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: 1})
+                                this.v.Imag2 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: 1})
                             break;
                             case 'TR':
                             if((TR.childNodes[0]).id != '0'){
                                 return
                             }
                                 TR.removeChild(TR.childNodes[0])
-                                this.v.Imag3 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: 1})
+                                this.v.Imag3 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: 1})
                             break;
                             case 'CL':
                             if((CL.childNodes[0]).id != '0'){
                                 return
                             }
                                 CL.removeChild(CL.childNodes[0])
-                                this.v.Imag4 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: 1})
+                                this.v.Imag4 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: 1})
                             break;
                             case 'CM':
                             if((CM.childNodes[0]).id != '0'){
                                 return
                             }
                                 CM.removeChild(CM.childNodes[0])
-                                this.v.Imag5 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: 1})
+                                this.v.Imag5 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: 1})
                             break;
                             case 'CR':
                             if((CR.childNodes[0]).id != '0'){
                                 return
                             }
                                 CR.removeChild(CR.childNodes[0])
-                                this.v.Imag6 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: 1})
+                                this.v.Imag6 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: 1})
                             break;
                             case 'BL':
                             if((BL.childNodes[0]).id != '0'){
                                 return
                             }
                                 BL.removeChild(BL.childNodes[0])
-                                this.v.Imag7 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 1})
+                                this.v.Imag7 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 1})
                             break;
                             case 'BM':
                             if((BM.childNodes[0]).id != '0'){
                                 return
                             }
                                 BM.removeChild(BM.childNodes[0])
-                                this.v.Imag8 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 1})
+                                this.v.Imag8 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 1})
                             break;
                             case 'BR':
                             if((BR.childNodes[0]).id != '0'){
                                 return
                             }
                                 BR.removeChild(BR.childNodes[0])
-                                this.v.Imag9 = this.v.generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 1})
+                                this.v.Imag9 = this.v.generateHTML({ type: 'img', src: './img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 1})
                             break;
                         }
             }
@@ -149,63 +149,63 @@ class Controller{
                         }
                         TL.removeChild(TL.childNodes[0])
 
-                        this.v.Imag1 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: '5'})
+                        this.v.Imag1 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: '5'})
                     break;
                     case 'TM':
                     if((TM.childNodes[0]).id != '0'){
                         return
                     }
                         TM.removeChild(TM.childNodes[0])
-                        this.v.Imag2 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: '5'})
+                        this.v.Imag2 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: '5'})
                     break;
                     case 'TR':
                     if((TR.childNodes[0]).id != '0'){
                         return
                     }
                         TR.removeChild(TR.childNodes[0])
-                        this.v.Imag3 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: '5'})
+                        this.v.Imag3 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: '5'})
                     break;
                     case 'CL':
                     if((CL.childNodes[0]).id != '0'){
                         return
                     }
                         CL.removeChild(CL.childNodes[0])
-                        this.v.Imag4 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: '5'})
+                        this.v.Imag4 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: '5'})
                     break;
                     case 'CM':
                     if((CM.childNodes[0]).id != '0'){
                         return
                     }
                         CM.removeChild(CM.childNodes[0])
-                        this.v.Imag5 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: '5'})
+                        this.v.Imag5 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: '5'})
                     break;
                     case 'CR':
                     if((CR.childNodes[0]).id != '0'){
                         return
                     }
                         CR.removeChild(CR.childNodes[0])
-                        this.v.Imag6 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: '5'})
+                        this.v.Imag6 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: '5'})
                     break;
                     case 'BL':
                     if((BL.childNodes[0]).id != '0'){
                         return
                     }
                         BL.removeChild(BL.childNodes[0])
-                        this.v.Imag7 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: '5'})
+                        this.v.Imag7 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: '5'})
                     break;
                     case 'BM':
                     if((BM.childNodes[0]).id != '0'){
                         return
                     }
                         BM.removeChild(BM.childNodes[0])
-                        this.v.Imag8 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: '5'})
+                        this.v.Imag8 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: '5'})
                     break;
                     case 'BR':
                     if((BR.childNodes[0]).id != '0'){
                         return
                     }
                         BR.removeChild(BR.childNodes[0])
-                        this.v.Imag9 = this.v.generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: '5'})
+                        this.v.Imag9 = this.v.generateHTML({ type: 'img', src: './img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: '5'})
                     break;
                 }
             }
@@ -283,15 +283,15 @@ class View {
 
         genImgBoard(){
         //Img for Buttons
-        let Imag1 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: 0})
-        let Imag2 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: 0})
-        let Imag3 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: 0})
-        let Imag4 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: 0})
-        let Imag5 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: 0})
-        let Imag6 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: 0})
-        let Imag7 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 0})
-        let Imag8 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 0})
-        let Imag9 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 0})
+        let Imag1 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: 0})
+        let Imag2 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: 0})
+        let Imag3 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: 0})
+        let Imag4 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: 0})
+        let Imag5 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: 0})
+        let Imag6 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: 0})
+        let Imag7 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 0})
+        let Imag8 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 0})
+        let Imag9 = this.generateHTML({ type: 'img', src: './img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 0})
         let ul = this.generateHTML({type: 'ul', classes: 'nav', parent: app})
         let navItem1 = this.generateHTML({type: 'li', classes: 'nav-item', parent: ul})
         let link1 = this.generateHTML({type: 'a', classes:'nav-link',text: 'CodeWars', href:'https://www.codewars.com/users/ViktorKKendrick">CodeWars', parent:navItem1})
