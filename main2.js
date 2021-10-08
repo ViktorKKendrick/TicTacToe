@@ -15,6 +15,10 @@ class Model {
             alert("Winner: Player 2");
             this.gameStatus = 'off'
                 }
+        Alert3(){
+            alert("Tie");
+            this.gameStatus = 'off'
+        }
 
         idFunc(){this.idArr = [parseInt(TL.childNodes[0].id), parseInt(TM.childNodes[0].id), parseInt(TR.childNodes[0].id), parseInt(CL.childNodes[0].id), parseInt(CM.childNodes[0].id), parseInt(CR.childNodes[0].id), parseInt(BL.childNodes[0].id), parseInt(BM.childNodes[0].id), parseInt(BR.childNodes[0].id)]}
 
@@ -38,6 +42,9 @@ class Model {
                  else if((this.idArr[0] + (this.idArr[4]) + (this.idArr[8])) == 15){this.Alert2()}
                  else if((this.idArr[2] + (this.idArr[4]) + (this.idArr[6])) == 3){this.Alert1()}
                  else if((this.idArr[6] + (this.idArr[4]) + (this.idArr[2])) == 15){this.Alert2()}
+                 else if(this.turn ==8){
+                 this.Alert3()
+                 }
         }
 
         setView(view){let v= view}
