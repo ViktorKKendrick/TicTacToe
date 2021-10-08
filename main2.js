@@ -42,9 +42,7 @@ class Model {
                  else if((this.idArr[0] + (this.idArr[4]) + (this.idArr[8])) == 15){this.Alert2()}
                  else if((this.idArr[2] + (this.idArr[4]) + (this.idArr[6])) == 3){this.Alert1()}
                  else if((this.idArr[6] + (this.idArr[4]) + (this.idArr[2])) == 15){this.Alert2()}
-                 else if(this.turn ==8){
-                 this.Alert3()
-                 }
+                 else if(this.turn ==8){this.Alert3()}
         }
 
         setView(view){let v= view}
@@ -217,6 +215,14 @@ class Controller{
                     this.m.winCond();
                 }
                 this.m.setState(this.m.turn+1)
+                turnDiv.removeChild(turnDiv.childNodes[0])
+                if(this.m.getState() % 2 == 0 && this.m.gameStatus == 'on'){
+                    this.v.order = this.v.generateHTML({type: 'container', classes: 'text-center', parent: turnDiv, text: 'Player 1\'s turn'})
+                }
+                else{
+                this.v.order = this.v.generateHTML({type: 'container', classes: 'text-center', parent: turnDiv, text: 'Player 2\'s turn'})
+                }
+
             }
 
         }
@@ -268,8 +274,10 @@ class View {
         let BM = this.c.handleClick(this.generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BL' }))
         let BL = this.c.handleClick(this.generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BM' }))
         let BR = this.c.handleClick(this.generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BR' }))
-        let div = this.generateHTML({type: 'div', classes: 'text-center', parent: container})
-        let res = this.c.resetClick(this.generateHTML({type: 'button', classes: 'btn btn-outline-primary btn-lg mt-2',text:'Reset', id: 'Reset', parent: div, style: 'max-height: 48px;  min-width: 189px'}))
+        let div = this.generateHTML({type: 'div', classes: 'text-center', parent: container, id:'turnDiv'})
+        let order = this.generateHTML({type: 'container', classes: 'text-center', text:'Player 1\'s turn', parent: div})
+        let resetDiv = this.generateHTML({type: 'div', classes: 'text-center', parent: container, id:'resetDiv'})
+        let res = this.c.resetClick(this.generateHTML({type: 'button', classes: 'btn btn-outline-primary btn-lg mt-2',text:'Reset', id: 'Reset', parent: resetDiv, style: 'max-height: 48px;  min-width: 189px'}))
 
         }
 
@@ -284,7 +292,20 @@ class View {
         let Imag7 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 0})
         let Imag8 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 0})
         let Imag9 = this.generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 0})
-
+        let ul = this.generateHTML({type: 'ul', classes: 'nav', parent: app})
+        let navItem1 = this.generateHTML({type: 'li', classes: 'nav-item', parent: ul})
+        let link1 = this.generateHTML({type: 'a', classes:'nav-link',text: 'CodeWars', href:'https://www.codewars.com/users/ViktorKKendrick">CodeWars', parent:navItem1})
+        let navItem2 = this.generateHTML({type: 'li', classes: 'nav-item', parent: ul})
+        let link2 = this.generateHTML({type: 'a', classes:'nav-link',text: 'Github', href:'https://github.com/ViktorKKendrick', parent:navItem2})
+//<ul class="nav">
+//
+//    <li class="nav-item">
+//        <a class="nav-link" href="https://www.codewars.com/users/ViktorKKendrick">CodeWars</a>
+//    </li>
+//    <li class="nav-item">
+//        <a class="nav-link" href="https://github.com/ViktorKKendrick">GitHub</a>
+//    </li>
+//</ul>
         }
 
 }
@@ -313,6 +334,9 @@ function init(){
         a.init();
 }
 function out(){
+        app.removeChild(app.childNodes[1]);
         app.removeChild(app.childNodes[0]);
         init();
+
+
 }
