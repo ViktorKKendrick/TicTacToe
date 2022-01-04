@@ -24,25 +24,24 @@ col = generateHTML({ type: 'div', classes: 'col-lg-2 col-sm-12 offset-sm-5 w-189
 col2 = generateHTML({ type: 'div', classes: 'col-lg-2 col-sm-12 offset-sm-5 h-48', parent: row, style: 'max-height: 48px;  min-width: 189px'  })
 col3 = generateHTML({ type: 'div', classes: 'col-lg-2 col-sm-12 offset-sm-5 h-48', parent: row, style: 'max-height: 48px;  min-width: 189px'  })
 //Button Layout
-TL = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col, id: 'TL'})
-TM = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col, id: 'TM' })
-TR = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col, id: 'TR' })
-CL = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col2, id: 'CL' })
-CM = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col2, id: 'CM' })
-CR = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col2, id: 'CR' })
-BM = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BM' })
-BL = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BL' })
-BR = generateHTML({ type: 'a', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BR' })
-//Img for Buttons
-Imag1 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: 0})
-Imag2 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: 0})
-Imag3 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: 0})
-Imag4 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: 0})
-Imag5 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: 0})
-Imag6 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: 0})
-Imag7 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 0})
-Imag8 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 0})
-Imag9 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 0})
+TL = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col, id: 'TL'})
+TM = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col, id: 'TM' })
+TR = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col, id: 'TR' })
+CL = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col2, id: 'CL' })
+CM = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col2, id: 'CM' })
+CR = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col2, id: 'CR' })
+BM = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BM' })
+BL = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BL' })
+BR = generateHTML({ type: 'a', style: 'max-width: 36px', classes: 'btn btn-outline-dark btn-lg', parent: col3, id: 'BR' })
+//Img for Buttons36mag1 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: TL, id: 0})
+Imag2 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: TM, id: 0})
+Imag3 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: TR, id: 0})
+Imag4 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: CL, id: 0})
+Imag5 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: CM, id: 0})
+Imag6 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: CR, id: 0})
+Imag7 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: BL, id: 0})
+Imag8 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: BM, id: 0})
+Imag9 = generateHTML({ type: 'img', src: 'img/blank.png', style: 'max-width: 36px; min-width: 36px', parent: BR, id: 0})
 
 //Javascript
 var topLeft = document.getElementById("TL");
@@ -76,63 +75,63 @@ function Selected() {
                         }
                         TL.removeChild(TL.childNodes[0])
 
-                        Imag1 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: 1})
+                        Imag1 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: TL, id: 1})
                     break;
                     case 'TM':
                     if((TM.childNodes[0]).id != '0'){
                         return
                     }
                         TM.removeChild(TM.childNodes[0])
-                        Imag2 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: 1})
+                        Imag2 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: TM, id: 1})
                     break;
                     case 'TR':
                     if((TR.childNodes[0]).id != '0'){
                         return
                     }
                         TR.removeChild(TR.childNodes[0])
-                        Imag3 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: 1})
+                        Imag3 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: TR, id: 1})
                     break;
                     case 'CL':
                     if((CL.childNodes[0]).id != '0'){
                         return
                     }
                         CL.removeChild(CL.childNodes[0])
-                        Imag4 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: 1})
+                        Imag4 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: CL, id: 1})
                     break;
                     case 'CM':
                     if((CM.childNodes[0]).id != '0'){
                         return
                     }
                         CM.removeChild(CM.childNodes[0])
-                        Imag5 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: 1})
+                        Imag5 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: CM, id: 1})
                     break;
                     case 'CR':
                     if((CR.childNodes[0]).id != '0'){
                         return
                     }
                         CR.removeChild(CR.childNodes[0])
-                        Imag6 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: 1})
+                        Imag6 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: CR, id: 1})
                     break;
                     case 'BL':
                     if((BL.childNodes[0]).id != '0'){
                         return
                     }
                         BL.removeChild(BL.childNodes[0])
-                        Imag7 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: 1})
+                        Imag7 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: BL, id: 1})
                     break;
                     case 'BM':
                     if((BM.childNodes[0]).id != '0'){
                         return
                     }
                         BM.removeChild(BM.childNodes[0])
-                        Imag8 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: 1})
+                        Imag8 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: BM, id: 1})
                     break;
                     case 'BR':
                     if((BR.childNodes[0]).id != '0'){
                         return
                     }
                         BR.removeChild(BR.childNodes[0])
-                        Imag9 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: 1})
+                        Imag9 = generateHTML({ type: 'img', src: 'img/x.png', style: 'max-width: 36px; min-width: 36px', parent: BR, id: 1})
                     break;
                 }
     }
@@ -144,63 +143,63 @@ function Selected() {
                 }
                 TL.removeChild(TL.childNodes[0])
                 console.log('seven')
-                Imag1 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TL, id: '2'})
+                Imag1 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: TL, id: '2'})
             break;
             case 'TM':
             if((TM.childNodes[0]).id != '0'){
                 return
             }
                 TM.removeChild(TM.childNodes[0])
-                Imag2 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TM, id: '2'})
+                Imag2 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: TM, id: '2'})
             break;
             case 'TR':
             if((TR.childNodes[0]).id != '0'){
                 return
             }
                 TR.removeChild(TR.childNodes[0])
-                Imag3 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: TR, id: '2'})
+                Imag3 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: TR, id: '2'})
             break;
             case 'CL':
             if((CL.childNodes[0]).id != '0'){
                 return
             }
                 CL.removeChild(CL.childNodes[0])
-                Imag4 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CL, id: '2'})
+                Imag4 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: CL, id: '2'})
             break;
             case 'CM':
             if((CM.childNodes[0]).id != '0'){
                 return
             }
                 CM.removeChild(CM.childNodes[0])
-                Imag5 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CM, id: '2'})
+                Imag5 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: CM, id: '2'})
             break;
             case 'CR':
             if((CR.childNodes[0]).id != '0'){
                 return
             }
                 CR.removeChild(CR.childNodes[0])
-                Imag6 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: CR, id: '2'})
+                Imag6 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: CR, id: '2'})
             break;
             case 'BL':
             if((BL.childNodes[0]).id != '0'){
                 return
             }
                 BL.removeChild(BL.childNodes[0])
-                Imag7 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BL, id: '2'})
+                Imag7 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: BL, id: '2'})
             break;
             case 'BM':
             if((BM.childNodes[0]).id != '0'){
                 return
             }
                 BM.removeChild(BM.childNodes[0])
-                Imag8 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BM, id: '2'})
+                Imag8 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: BM, id: '2'})
             break;
             case 'BR':
             if((BR.childNodes[0]).id != '0'){
                 return
             }
                 BR.removeChild(BR.childNodes[0])
-                Imag9 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 12px; min-width: 12px', parent: BR, id: '2'})
+                Imag9 = generateHTML({ type: 'img', src: 'img/o.png', style: 'max-width: 36px; min-width: 36px', parent: BR, id: '2'})
             break;
         }
     }
